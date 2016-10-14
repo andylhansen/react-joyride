@@ -197,6 +197,10 @@ export default class JoyrideTooltip extends React.Component {
       if (stepStyles.hole) {
         styles.hole = Object.assign({}, stepStyles.hole, styles.hole);
       }
+
+      if (stepStyles.arrow) {
+        styles.arrow = Object.assign({}, stepStyles.arrow, styles.arrow);
+      }
     }
 
     return styles;

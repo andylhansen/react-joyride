@@ -6,6 +6,7 @@
     "mocha": true
   },
   "rules": {
+    "linebreak-style": "off",
     "arrow-body-style": [1, "as-needed"],
     "brace-style": [1, "stroustrup", { "allowSingleLine": true }],
     "camelcase": 0,
